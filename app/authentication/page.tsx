@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 function SignIn() {
     return (
@@ -118,7 +119,7 @@ function SignIn() {
 
                     <div className="flex items-center justify-between mt-4">
                         <span className="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
-                        <a href="#" className="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">or sign up</a>
+                        <Link href="/" className="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">or sign up</Link>
                         <span className="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
                     </div>
                 </CardContent>

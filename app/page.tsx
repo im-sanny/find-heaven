@@ -9,6 +9,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaNetworkWired } from 'react-icons/fa';
 import { RiCommunityLine } from 'react-icons/ri';
 import { GiGrowth } from 'react-icons/gi';
+import Link from 'next/link';
 
 const SignUp = () => {
   const [userType, setUserType] = useState('');
@@ -259,7 +260,7 @@ const SignUp = () => {
             <Label>
               <p className="text-center mt-4">
 
-                already a user? <a href=''>log in</a>
+                already a user? <Link href='/authentication'>log in</Link>
               </p>
             </Label>
           </form>
