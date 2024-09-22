@@ -33,7 +33,7 @@ const SignUp = () => {
         muted
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/child.mp4" type="video/mp4" />
+        <source src="/assets/child.mp4" type="video/mp4" />
       </video>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 justify-center items-center my-auto w-full h-full max-w-sm mx-auto overflow-hidden bg-white border-2 dark:bg-gray-800 lg:max-w-2xl z-10">
         {/* text part */}
@@ -80,7 +80,7 @@ const SignUp = () => {
           </div>
         </div>
         {/* form */}
-        <div className="max-w-md w-full space-y-8 bg-white p-6 shadow-md relative z-10 order-1 lg:order-1">
+        <div className="max-w-md w-full space-y-8 p-6 relative z-10 order-1 lg:order-1">
           <h2 className=" text-center text-3xl font-bold text-gray-900">Sign Up</h2>
 
           <form className="space-y-2">
@@ -258,9 +258,9 @@ const SignUp = () => {
               </div>
             </Button>
             <Label>
-              <p className="text-center mt-4">
+              <p className="text-center mt-4 text-xs text-gray-500 uppercase dark:text-gray-400">
 
-                already a user? <Link href='/authentication'>log in</Link>
+                already a user? <Link href="/" className="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">sign in</Link>
               </p>
             </Label>
           </form>

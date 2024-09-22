@@ -21,7 +21,7 @@ function SignIn() {
                 muted
                 className="absolute top-0 left-0 w-full h-full object-cover z-0"
             >
-                <source src="/child.mp4" type="video/mp4" />
+                <source src="/assets/child.mp4" type="video/mp4" />
             </video>
 
             <Card className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 justify-center items-center my-auto w-full h-full max-w-sm mx-auto overflow-hidden bg-white border-2 dark:bg-gray-800 lg:max-w-2xl rounded-none">
