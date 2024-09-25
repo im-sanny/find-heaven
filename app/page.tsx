@@ -88,7 +88,7 @@ const SignUp = () => {
             <Input placeholder="Last Name" required className='rounded-full' />
 
             <Select onValueChange={(value) => console.log(value)}>
-              <SelectTrigger className='rounded-full'>
+              <SelectTrigger className='rounded-full text-gray-600'>
                 <SelectValue placeholder="Select Gender" />
               </SelectTrigger>
               <SelectContent>
@@ -98,11 +98,11 @@ const SignUp = () => {
               </SelectContent>
             </Select>
 
-            <Label htmlFor="profile-picture">Profile Picture</Label>
-            <Input id="profile-picture" type="file" accept="image/*" className='rounded-full' />
+            {/* <Label htmlFor="profile-picture" className='text-gray-600'>Profile Picture</Label> */}
+            <Input id="profile-picture" type="file" accept="image/*" className='rounded-full text-blue-400' placeholder='Chose profile picture' />
 
             <Select onValueChange={setUserType}>
-              <SelectTrigger className='rounded-full'>
+              <SelectTrigger className='rounded-full text-gray-600'>
                 <SelectValue placeholder="Select User Type" />
               </SelectTrigger>
               <SelectContent>
