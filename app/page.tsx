@@ -35,6 +35,7 @@ const SignUp = () => {
       >
         <source src="/assets/child.mp4" type="video/mp4" />
       </video>
+     
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 justify-center items-center my-auto w-full h-full max-w-sm mx-auto overflow-hidden bg-white border-2 dark:bg-gray-800 lg:max-w-2xl z-10">
         {/* text part */}
         <div className=" flex flex-col justify-center items-center order-2 lg:order-1 bg-cover p-8 z-10 bg-blue-200 h-full">
